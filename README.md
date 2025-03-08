@@ -36,3 +36,7 @@ Dentro del script hay una linea que dice:
 max_length = 2048
 ```
 Puedes reducir el numero de `2048` de la variable `max_length` si tienes una GPU con poca memoria, por ejemplo en 512.
+
+## Otros
+
+Este script puede ser usado para migrar notas a obsidian, por ejemplo notas que han sido convertidas desde una app como colornote > https://codeberg.org/Milor123/colornote_json2md_to_obsidian/
