@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Necesitas un folder que contenga todas las notas o archivos del texto de formato `.md` o `.txt` y una carpeta de salida, donde el script copiara todos los archivos que analice y considere aptos para esa categoria o tema
 
 ```python
-python clasificador_espanol.py --input "./notas" --output "./salida" --categories "Juegos" "Personal" "Finanzas" "Impuestos" "Salud"
+python clasificar.py --input "./notas" --output "./salida" --categories "Juegos" "Personal" "Finanzas" "Impuestos" "Salud"
 ```
 
 ## Notas 
