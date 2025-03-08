@@ -7,6 +7,7 @@ Analiza una carpeta con archivos de texto, lee el texto y en base al texto deter
 
 ### Requerimientos
 
+GPU NVIDIA
 ```pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install transformers==4.36.2 tqdm protobuf==3.20.0 sentencepiece accelerate
@@ -25,3 +26,13 @@ Necesitas un folder que contenga todas las notas o archivos del texto de formato
 ```python
 python clasificador_espanol.py --input "./notas" --output "./salida" --categories "Juegos" "Personal" "Finanzas" "Impuestos" "Salud"
 ```
+
+## Notas 
+El script necesita internet para descargar los modelos de AI de hugging face, lo deberia hacer automaticamente.
+
+Dentro del script hay una linea que dice:
+
+```python
+max_length = 2048
+```
+Puedes reducir el numero de `2048` de la variable `max_length` si tienes una GPU con poca memoria, por ejemplo en 512.
