@@ -10,7 +10,7 @@ Analiza una carpeta con archivos de texto, lee el texto y en base al texto deter
 GPU NVIDIA
 ```pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install transformers==4.36.2 tqdm protobuf==3.20.0 sentencepiece accelerate
+pip install transformers==4.36.2 tqdm protobuf==3.20.0 sentencepiece accelerate tiktoken
 ```
 
 o sino usa mi archivo requirements por si olvide poner algo.
